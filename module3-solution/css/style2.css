@@ -16,7 +16,7 @@ li > a {
     margin: -1px 0px;
 }
 
-div > h2,p {
+div > h3,p {
     /* position: relative; */
     background: grey;
     margin: 0px;
