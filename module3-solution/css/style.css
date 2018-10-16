@@ -1,0 +1,26 @@
+.navbar-brand h1 { /* Restaurant name */
+  font-family: Helvetica;
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+li > a {
+    border: 1px solid black;
+    margin: -1px 0px;
+}
+
+section {
+    background: grey;
+    margin: 20px 0px;
+    padding: 5px 20px;
+    font-family: Helvetica;
+}
+
+@media (max-width: 767px) {
+    section {
+        width: 80% !important;
+        margin-left: 10%;
+    }
+}

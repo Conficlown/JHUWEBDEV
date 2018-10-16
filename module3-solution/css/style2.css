@@ -1,0 +1,29 @@
+/* .navbar-brand {
+  padding-top: 25px;
+} */
+.navbar-brand h1 { /* Restaurant name */
+  font-family: Helvetica;
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  /*margin-bottom: 0;
+  line-height: .75; */
+}
+
+li > a {
+    border: 1px solid black;
+    margin: -1px 0px;
+}
+
+div > h2,p {
+    /* position: relative; */
+    background: grey;
+    margin: 0px;
+    padding: 5px 20px;
+}
+
+.eachmenu {
+    margin: 20px 0px;
+    font-family: Helvetica;
+}
