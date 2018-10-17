@@ -11,16 +11,18 @@ li > a {
     margin: -1px 0px;
 }
 
-section {
-    background: grey;
+.menu {
+    /* background: grey; */
     margin: 20px 0px;
     padding: 5px 20px;
     font-family: Helvetica;
+    /* width: 80% !important; */
+    /* margin-left: 10%; */
+    margin: 20px 0px;
 }
 
-@media (max-width: 767px) {
-    section {
-        width: 80% !important;
-        margin-left: 10%;
-    }
+div > h2, p {
+    background: grey;
+    margin: 0px;
+    padding: 5px 20px;
 }
